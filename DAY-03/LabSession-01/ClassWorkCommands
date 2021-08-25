@@ -1,0 +1,202 @@
+ 1855  exit
+ 1856  pwd
+ 1857  cd /
+ 1858  pwd
+ 1859  ls
+ 1860  cd ~
+ 1861  ls
+ 1862  ls -l
+ 1863  mkdir DAC_OS/
+ 1864  cd DAC_O
+ 1865  cd DAC_OS/
+ 1866  ls
+ 1867  mkdir syscalls
+ 1868  mkdir commands
+ 1869  ls
+ 1870  ls -l
+ 1871  pwd
+ 1872  cd commands/
+ 1873  pwd
+ 1874  ls
+ 1875  ls -a
+ 1876  ls -a -l
+ 1877  ls -l ..
+ 1878  cd ~
+ 1879  ls -l
+ 1880  man ls
+ 1881  cd -
+ 1882  pwd
+ 1883  ls
+ 1884  cat > file1.txt
+ 1885  ls
+ 1886  ls -l
+ 1887  cat file1.txt
+ 1888  cat > file1.txt
+ 1889  cat file1.txt
+ 1890  cat >> file1.txt
+ 1891  cat file1.txt
+ 1892  ls
+ 1893  cat > file2.txt
+ 1894  ls -l
+ 1895  cat file1.txt 
+ 1896  cat file2.txt 
+ 1897  cat file1.txt file2.txt 
+ 1898  cat > file3.txt
+ 1899  cat file1.txt file2.txt file3.txt 
+ 1900  cat file1.txt 
+ 1901  cat file1.txt file3.txt file2.txt 
+ 1902  cat file1.txt 
+ 1903  tac file1.txt 
+ 1904  cat -n file1.txt file3.txt file2.txt 
+ 1905  man cat
+ 1906  ls
+ 1907  pwd
+ 1908  tac -n file1.txt 
+ 1909  pwd
+ 1910  ls
+ 1911  cp ./file3.txt ~/feb2021/eDAC/
+ 1912  cd ~/feb2021/eDAC/
+ 1913  pwd
+ 1914  cat file3.txt 
+ 1915  ls
+ 1916  mkdir one
+ 1917  cd one/
+ 1918  pwd
+ 1919  ls  
+ 1920  cp ~/DAC_OS/commands/*.txt .
+ 1921  ls
+ 1922  mkdir -p two/three
+ 1923  ls
+ 1924  cd two/
+ 1925  ls
+ 1926  cd three/
+ 1927  pwd
+ 1928  mv ../../*.txt .
+ 1929  ls
+ 1930  ls -l ../..
+ 1931  ls
+ 1932  mkdir four five six
+ 1933  ls
+ 1934  rmdir five four six
+ 1935  ls
+ 1936  mkdir -p four/five/six
+ 1937  ls
+ 1938  ls four/
+ 1939  ls four/five/
+ 1940  ls
+ 1941  rm file1.txt 
+ 1942  ls
+ 1943  rm *.txt
+ 1944  ls
+ 1945  ls -R
+ 1946  ls
+ 1947  rmdir four/
+ 1948  rm -r four/
+ 1949  ls
+ 1950  mkdir four five
+ 1951  ls
+ 1952  rmdir
+ 1953  rmdir five four/
+ 1954  ls
+ 1955  ls -l -i -s
+ 1956  cd ../..
+ 1957  ls -l -i -s
+ 1958  cd ..
+ 1959  ls
+ 1960  ls -l
+ 1961  ls -l -i
+ 1962  ls -l -i -s
+ 1963  ls -i
+ 1964  cd -
+ 1965  ls -s
+ 1966  ls -l -s 
+ 1967  ls
+ 1968  cd two/
+ 1969  ls
+ 1970  cd three/
+ 1971  ls
+ 1972  mkdir four
+ 1973  rmdir four/
+ 1974  ls
+ 1975  mkdir four
+ 1976  rmdir four
+ 1977  ls
+ 1978  mkdir four
+ 1979  ls
+ 1980  ls -l
+ 1981  mv five
+ 1982  mv four five
+ 1983  ls
+ 1984  mv five six
+ 1985  ls
+ 1986  touch india.txt
+ 1987  ls
+ 1988  ls -l
+ 1989  ls -l -s
+ 1990  ls
+ 1991  mv india.txt bharat.txt
+ 1992  ls
+ 1993  cd ../..
+ 1994  cd ..
+ 1995  ls
+ 1996  ls -i -l -s
+ 1997  alias ls='ls -i -l -s'
+ 1998  ls
+ 1999  exit
+ 2000  ls
+ 2001  alias ls='ls -i -l -s'
+ 2002  ls
+ 2003  unalias ls
+ 2004  ls
+ 2005  cd feb2021
+ 2006  cd eDAC/
+ 2007  ls
+ 2008  man ls
+ 2009  man 2 mkdir
+ 2010  man 3 printf
+ 2011  man 2 mkdir
+ 2012  man 3 printf
+ 2013  cd ~
+ 2014  ls -l
+ 2015  touch twister.c 
+ 2016  ls -l twister.c 
+ 2017  cd -
+ 2018  ls
+ 2019  cd commands/
+ 2020  s
+ 2021  ls
+ 2022  touch -c india.txt
+ 2023  ls
+ 2024  touch india.txt
+ 2025  ls -l
+ 2026  ls -l -s
+ 2027  touch --help
+ 2028  ls
+ 2029  cd ../..
+ 2030  ls -l
+ 2031  cd -
+ 2032  ls
+ 2033  touch file1.txt file2.txt file3.txt
+ 2034  ls -l
+ 2035  ls -l > out.txt
+ 2036  ls
+ 2037  cat out.txt 
+ 2038  ls -l
+ 2039  rm out.txt 
+ 2040  ls
+ 2041  ls -l
+ 2042  ls -l > out.txt
+ 2043  cat out.txt 
+ 2044  ls -l
+ 2045  wc < out.txt 
+ 2046  cat out.txt 
+ 2047  ls -M
+ 2048  ls -M 2> err.txt
+ 2049  cat err.txt 
+ 2050  ls
+ 2051  cat > file1.txt
+ 2052  cat file1.txt 
+ 2053  wc < file1.txt 
+ 2054  ls -l file1.txt 
+ 2055  history 
+

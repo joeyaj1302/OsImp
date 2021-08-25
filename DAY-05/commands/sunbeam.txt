@@ -1,0 +1,16 @@
+1. c programming language
+2. c++ programming language
+3. operating system concepts with linux programming
+4. algorithms and data structures
+5. embedded operating system
+6. device deriver programming
+7. android programming java
+8. iphone programming
+9. advanced web programming
+10. database technologies
+11. java programming-1
+12. java programming-2
+
+program
+program is a set of instructions
+process is program in execution

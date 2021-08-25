@@ -1,0 +1,194 @@
+Q1. List the directory contents date wise sorted. ( man ls)
+
+ANS : ls -lt
+
+or ANS : ls -l -t
+
+Q2. List the directory contents size wise sorted.(man ls)
+
+ANS : ls -rlS  
+
+or ANS : ls -r -l -S
+
+Q3. List directory contents along with their inode no. (man ls)
+
+ANS : ls -i 
+
+Q4. List the contents of sub directory.
+
+ANS : ls -R
+
+Q5. Create a file , write your surname and name in it and save. 
+
+i.now open the same file and add your address in it and save. 
+
+ii.reopen the same file and check your name and address in it.
+
+ANS : cat >> file.txt
+
+John
+
+Wick
+
+cat  >> file.txt
+
+London
+
+cat file.txt
+
+Q6. how to change the time stamp of file (man touch)
+
+ANS : touch file.txt
+
+Q7. Create directory structure : Give following commands .
+
+ANS : > mkdir one 
+
+-> cd one 
+
+-> touch 1.txt 11.txt 111.txt 
+
+-> mkdir two 
+
+-> cd two 
+
+-> touch 2.txt 22.txt 222.txt 
+
+-> mkdir three 
+
+-> cd three 
+
+-> touch 3.txt 33.txt 333.txt 
+
+-> mkdir four
+
+-> cd four 
+
+-> touch 4.txt 44.txt 444.txt 
+
+-> mkdir five 
+
+-> cd five
+
+-> touch 5.txt 55.txt 555.txt 
+
+-> cd ~ (i.e. go to your home directory)
+
+Q8. Considering above directory structure , Do following operations :
+
+i. list the directory contents of directory named
+"five" from current directory (i.e. home directory).
+
+ANS 1 : ls practice/one/two/three/four/five
+
+ii. write your name in a file named "44.txt" of
+directory "four" from current directory.
+
+ANS 2 : cat >> practice/one/two/three/four/44.txt
+
+(then enter name and to come out of the file press ctrl+d)
+
+iii.remove the file named "555.txt" from directory
+"five" from current directory.
+
+ANS 3 : rm practice/one/two/three/four/five/555.txt
+
+(check with ls -l <path here> whether file deleted or not)
+
+iv. change directory to five ( i.e. cd
+one/two/three/four/five/ ).
+
+ANS 4 : cd practice/one/two/three/four/five
+
+v. write your course name in file named "3.txt" which
+resides in directory "three" from current directory (i.e. five).also read the same file.
+
+ANS 5 : cat >> ../../3.txt
+
+vi. list the contents of directory "two" from current
+directory (i.e. five).
+
+ANS 6 : ls -l ../../../
+
+vii. remove file named "222.txt" which belongs to
+directory "two" from current directory (i.e. five)
+
+ANS 7 : rm ../../../222.txt
+
+(then check using ls -l ././../../)
+
+viii. now change the directory to "one"
+
+ANS 8 : cd ../../../../
+
+ix. remove all files only from directory named "five"
+from current directory (i.e. one)
+
+ANS 9  : rm two/three/four/five/*
+
+(to remove all select *)
+
+x. remove directory named "five" from current directory
+(i.e. one)
+
+ANS 10 : rmdir two/three/four/five
+
+( rmdir —> to remove directory)
+
+xi. remove whole directory named "four" from current
+directory (i.e. one)
+
+ANS 11 : rm -r two/three/four
+
+xii. change to your home directory.
+
+ANS 11 : cd ~
+
+Q 9. change the time stamp of file named "3.txt" which resides in directory named "three".(man touch) 
+
+ANS : touch practice/one/two/three/3.txt
+
+( to check use ls -l <directory_path_here)
+
+Q 10.  Create a file named "data.txt" and write following 6 lines in it(write as it is).
+"Linux is open source. In linux everything is file. files have permissions. files have inode no. files have size. there are several types of file"
+
+i. count the no. of words ,characters and lines from above file.(man wc)
+
+ANS 1 :  wc data.txt
+
+ii. list the lines having word "files" (man grep)
+
+ANS 2 : grep -w "files" data.txt
+
+iii. list the lines having word "file" (man grep)
+
+ANS 3 : grep -w "file" data.txt
+
+iv.list the lines which don't have word "files" (man grep)
+
+ANS 4 : grep -v "files" data.txt
+
+v. list the lines having word "have" along with count. (man grep)
+
+ANS 5 : grep -c "have" data.txt && grep -w "have" data.txt
+
+vi. list the lines starts with letter "f" (man grep)
+
+ANS 6 : grep ^f data.txt
+
+vii. list the lines ends with "g" (man grep)
+
+ANS 7 : grep g$ data.txt
+
+viii. list only first two lines.(man head)
+
+ANS 8 : head -2 data.txt
+
+ix. list only last three lines.(man tail)
+
+ANS 9 : tail -3 data.txt
+
+x. list line no.3,4 and 5 . (man head and tail)
+
+ANS 10 : tail -4 data.txt | head -3 data.txt

@@ -1,0 +1,244 @@
+ 1923  cd eDAC/
+ 1924  ls
+ 1925  cd PRo
+ 1926  cd ProcessManagement/
+ 1927  ls
+ 1928  tty
+ 1929  ./fork04.out 
+ 1930  tty
+ 1931  ./fork04.out 
+ 1932  tty
+ 1933  man ps
+ 1934  ./fork04.out 
+ 1935  ttye
+ 1936  tty
+ 1937  ./fork06.out 
+ 1938  rm *.out *.o
+ 1939  gcc -c fork07.c
+ 1940  gcc -o fork07.out fork07.o
+ 1941  ./fork07.out 
+ 1942  gcc -c fork08.c
+ 1943  gcc -o fork08.out fork08.o
+ 1944  ./fork08.out 
+ 1945  gcc -c fork08.c
+ 1946  gcc -o fork08.out fork08.o
+ 1947  ./fork08.out 
+ 1948  man 2 fork
+ 1949  man 2 wait
+ 1950  ps -t pts/0 -m -o pid,tid,nlwp,cmd
+ 1951  ps -t pts/1 -m -o pid,tid,nlwp,cmd
+ 1952  man 3 pthread_create
+ 1953  uname
+ 1954  uname -a
+ 1955  uname -v
+ 1956  uname -a
+ 1957  lscpu | less
+ 1958  man lscpu
+ 1959  exit
+ 1960  tty
+ 1961  ps -e -t pts/2 -o pid,ppid,cmd
+ 1962  qps -e -t pts/0 -o pid,ppid,cmd
+ 1963  ps -e -t pts/0 -o pid,ppid,cmd
+ 1964  ps -e -t pts/2 -o pid,ppid,cmd
+ 1965  ps -e -t pts/2 -o pid,ppid,cmd | grep "fork"
+ 1966  ps -e -t pts/2 -o pid,ppid,cmd
+ 1967  ps -e -t pts/2 -o pid,ppid,cmd | grep "fork"
+ 1968  ps -e -t pts/2 -o pid,ppid,cmd
+ 1969  ps -e -t pts/2 -o pid,ppid,cmd | grep "fork"
+ 1970  ps -t pts/2 -o pid,ppid,cmd
+ 1971  man ps
+ 1972  ps -e -t pts/2 -o pid,ppid,cmd
+ 1973  ps -e -t pts/2 -o pid,ppid,cmd | grep "fork"
+ 1974  ps -e -t pts/2 -o pid,ppid,cmd
+ 1975  ps -e -t pts/2 pid,ppid,cmd
+ 1976  ps -t pts/2 -o pid,ppid,cmd
+ 1977  top
+ 1978  ps -t pts/2 -o pid,ppid,cmd
+ 1979  top
+ 1980  cd /proc
+ 1981  ls
+ 1982  cat lscpu
+ 1983  cat cpuinfo
+ 1984  exit
+ 1985  cd feb2021
+ 1986  cd eDAC/
+ 1987  ls
+ 1988  cd syscalls/
+ 1989  ls
+ 1990  cd ~/DAC_OS/syscalls/
+ 1991  ls
+ 1992  rm a.out 
+ 1993  ls
+ 1994  vim fork01.c 
+ 1995  ls
+ 1996  cp fork01.c fork02.c 
+ 1997  ls
+ 1998  vim fork02.c 
+ 1999  man 2 wait
+ 2000  exit
+ 2001  cd feb2021/eDAC/
+ 2002  ls
+ 2003  cd OS/
+ 2004  ls
+ 2005  cd commands/
+ 2006  ls
+ 2007  cat sunbeam.txt 
+ 2008  clear
+ 2009  cd /home/
+ 2010  ls
+ 2011  cd ~
+ 2012  cd feb2021/eDAC/OS/commands/
+ 2013  pwd
+ 2014  touch india.txt
+ 2015  ls -l india.txt 
+ 2016  ls -l -s india.txt 
+ 2017  ls -l -s -i india.txt 
+ 2018  chmod +x india.txt 
+ 2019  ls -l -s -i india.txt 
+ 2020  chmod -x india.txt 
+ 2021  ls -l -s -i india.txt 
+ 2022  chmod u+x india.txt 
+ 2023  ls -l -s -i india.txt 
+ 2024  chmod u+g india.txt 
+ 2025  ls -l -s -i india.txt 
+ 2026  chmod g+x india.txt 
+ 2027  ls -l -s -i india.txt 
+ 2028  chmod o+x india.txt 
+ 2029  ls -l -s -i india.txt 
+ 2030  chmod g-x india.txt 
+ 2031  ls -l -s -i india.txt 
+ 2032  chmod u+g+x india.txt 
+ 2033  ls -l -s -i india.txt 
+ 2034  chmod -x india.txt 
+ 2035  ls -l -s -i india.txt 
+ 2036  chmod u+g+x india.txt 
+ 2037  ls -l -s -i india.txt 
+ 2038  chmod -r india.txt 
+ 2039  ls -l -s -i india.txt 
+ 2040  chmod -w india.txt 
+ 2041  ls -l -s -i india.txt 
+ 2042  chmod -x india.txt 
+ 2043  ls -l -s -i india.txt 
+ 2044  chmod +r india.txt 
+ 2045  chmod +w india.txt 
+ 2046  ls -l -s -i india.txt 
+ 2047  chmod o+x india.txt 
+ 2048  ls -l -s -i india.txt 
+ 2049  ls -l 
+ 2050  ls -l india.txt 
+ 2051  chmod -x india.txt 
+ 2052  ls -l india.txt 
+ 2053  chmod 0765 india.txt
+ 2054  ls -l india.txt 
+ 2055  chmod 0777 india.txt
+ 2056  ls -l india.txt 
+ 2057  chmod 0000 india.txt
+ 2058  ls -l india.txt 
+ 2059  chmod 0711 india.txt
+ 2060  ls -l india.txt 
+ 2061  mkdir one
+ 2062  cd one/
+ 2063  ls
+ 2064  touch file1.txt file2.txt file3.txt
+ 2065  ls -l
+ 2066  ls -l > out.txt
+ 2067  ls -l
+ 2068  ls -l -s
+ 2069  rm out.txt 
+ 2070  ls -l
+ 2071  ls -l > temp.txt
+ 2072  ls -l
+ 2073  cat temp.txt 
+ 2074  wc < temp.txt 
+ 2075  ls -l
+ 2076  ls -l -s
+ 2077  rm temp.txt 
+ 2078  ls -l
+ 2079  ls -l | wc
+ 2080  cat > file1.txt
+ 2081  cat file1.txt 
+ 2082  sort file1.txt 
+ 2083  sort -n file1.txt 
+ 2084  uniq file1.txt 
+ 2085  man uniq
+ 2086  sort -n file1.txt 
+ 2087  cat file1.txt 
+ 2088  sort -n file1.txt | uniq
+ 2089  sort -n file1.txt
+ 2090  sort -n file1.txt | uniq
+ 2091  sort -n file1.txt | uniq > out.txt
+ 2092  cat out.txt 
+ 2093  cat > numbers.txt
+ 2094  cat numbers.txt 
+ 2095  cat numbers.txt | less
+ 2096  cp /home/sunbeam/DAC_OS/syscalls/fork01.out .
+ 2097  ls
+ 2098  readelf fork01.out 
+ 2099  readelf -a fork01.out 
+ 2100  readelf -a fork01.out | less
+ 2101  cat numbers.txt | head
+ 2102  cat numbers.txt | head +5
+ 2103  cat numbers.txt | head -5
+ 2104  cat numbers.txt | head -15
+ 2105  cat numbers.txt | tail
+ 2106  cat numbers.txt | tail -5
+ 2107  cat numbers.txt | tail -15
+ 2108  cat numbers.txt | tail -15 | head +10
+ 2109  cat numbers.txt | tail -15 | head -10
+ 2110  ls
+ 2111  echo "SunBeam"
+ 2112  echo "SunBeam" | tr "a-z" "A-Z"
+ 2113  echo "SunBeam" | tr "a-z|A-Z" "A-Z|a-z"
+ 2114  echo $PATH
+ 2115  echo $PATH | tr ":" "\n"
+ 2116  echo $SHELL
+ 2117  echo $PWD
+ 2118  pwd
+ 2119  Ls
+ 2120  ls
+ 2121  whereis ls
+ 2122  ls /bin
+ 2123  ls
+ 2124  echo $PATH
+ 2125  echo $PATH | tr ":" "\n"
+ 2126  cd ..
+ 2127  ls -i -l
+ 2128  alis ls='ls -i -l'
+ 2129  alials ls='ls -i -l'
+ 2130  alias ls='ls -i -l'
+ 2131  ls
+ 2132  ualias ls
+ 2133  unalias ls
+ 2134  ls
+ 2135  cd one/
+ 2136  sort -n file1.txt 
+ 2137  cat file1.txt 
+ 2138  cd ..
+ 2139  man ls
+ 2140  ls -S
+ 2141  ls -l -S
+ 2142  ls -l
+ 2143  cd one/
+ 2144  sort -n file1.txt
+ 2145  sort -n file1.txt > file1.txt
+ 2146  cat file1.txt 
+ 2147  ls -l
+ 2148  cd ..
+ 2149  cat sunbeam.txt 
+ 2150  cat sunbeam.txt | cut -d " " -f1
+ 2151  cat sunbeam.txt | cut -d " " -f1,2
+ 2152  1. c
+ 2153  2. c++
+ 2154  3. operating
+ 2155  4. algorithms
+ 2156  5. embedded
+ 2157  6. device
+ 2158  ls -l -i -s
+ 2159  ls -l -i -s | cut -d " " -f1
+ 2160  ls -l -i -s | cut -d " " -f1,2
+ 2161  ls -l -i -s | cut -d " " -f1,4
+ 2162  ls -l -i -s | cut -d " " -f1,5
+ 2163  cat sunbeam.txt 
+ 2164  ls -l -i -s | cut -d " " -f5
+ 2165  history
+

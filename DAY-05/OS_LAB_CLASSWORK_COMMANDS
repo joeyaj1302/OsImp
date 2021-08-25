@@ -1,0 +1,138 @@
+ 1860  man bc
+ 1861  echo "4.5 + 4.5" | bc
+ 1862  echo "4.5 * 4.5" | bc
+ 1863  echo "3.14 * 4.5 * 4.5" | bc
+ 1864  cd /home/sunbeam/eDAC/ShellSCripts
+ 1865  pwd
+ 1866  ls
+ 1867  ./script_04.sh 
+ 1868  bash script_04.sh 
+ 1869  cd feb2021/eDAC/OS/commands/
+ 1870  ls
+ 1871  cat sunbeam.txt 
+ 1872  cat sunbeam.txt | cut -d " " -f1
+ 1873  cat sunbeam.txt | cut -d " " -f2
+ 1874  ls -i -s
+ 1875  cd ../..
+ 1876  ls -l -i -s
+ 1877  ls -l -i -s | cut -d " " -f1
+ 1878  ls -l -i -s | cut -d " " -f2
+ 1879  ls -l -i -s | cut -d " " -f1,2
+ 1880  ls -l -i -s | cut -d " " -f1,2,3
+ 1881  ls -l -i -s | cut -d " " -f1,2,7
+ 1882  cd -
+ 1883  pwd
+ 1884  cat > file1.txt
+ 1885  cat file1.txt 
+ 1886  cat file1.txt | cut -d "," -f1
+ 1887  cat file1.txt | cut -d "," -f2
+ 1888  cat file1.txt | cut -d "," -f3
+ 1889  cat file1.txt | cut -d "," -f1,3
+ 1890  cd ../..
+ 1891  ls -R
+ 1892  cd -
+ 1893  ls -R
+ 1894  cat file1.txt | cut -d "," -f1,3
+ 1895  cat file1.txt | cut -d "," -f1 -f3
+ 1896  cat sunbeam.txt 
+ 1897  grep "java" sunbeam.txt 
+ 1898  vim sunbeam.txt 
+ 1899  grep "java" sunbeam.txt 
+ 1900  grep "Java" sunbeam.txt 
+ 1901  cat sunbeam.txt 
+ 1902  grep -i "Java" sunbeam.txt 
+ 1903  grep "program" sunbeam.txt 
+ 1904  grep "jav" sunbeam.txt 
+ 1905  grep -w "jav" sunbeam.txt 
+ 1906  grep -w "program" sunbeam.txt 
+ 1907  grep -w -c "program" sunbeam.txt 
+ 1908  grep -w "program" sunbeam.txt 
+ 1909  grep "program" sunbeam.txt 
+ 1910  grep -c "program" sunbeam.txt 
+ 1911  grep -x "program" sunbeam.txt 
+ 1912  cat sunbeam.txt 
+ 1913  grep "program" sunbeam.txt 
+ 1914  grep -w "program" sunbeam.txt 
+ 1915  cat sunbeam.txt 
+ 1916  grep "c programming" sunbeam.txt 
+ 1917  grep -x "c programming" sunbeam.txt 
+ 1918  cat sunbeam.txt 
+ 1919  grep "program" sunbeam.txt 
+ 1920  grep -x "program" sunbeam.txt 
+ 1921  grep -n "program" sunbeam.txt 
+ 1922  grep -n -w "program" sunbeam.txt 
+ 1923  man grep
+ 1924  cat sunbeam.txt 
+ 1925  grep -A2 "iphone" sunbeam.txt 
+ 1926  grep -B2 "iphone" sunbeam.txt 
+ 1927  grep -A5 "iphone" sunbeam.txt 
+ 1928  grep -B5 "iphone" sunbeam.txt 
+ 1929  grep -C5 "iphone" sunbeam.txt 
+ 1930  history
+ 1931  history | grep "python"
+ 1932  history | grep "fork"
+ 1933  ls
+ 1934  grep "program" *.txt
+ 1940  grep -R "sachin" /home/sunbeam/
+ 1941  cat taste.txt 
+ 1942  grep "is" taste.txt 
+ 1943  grep "^is" taste.txt 
+ 1944  grep "is$" taste.txt 
+ 1945  grep "^is$" taste.txt 
+ 1946  cat select.txt 
+ 1947  grep "bg" select.txt 
+ 1948  grep "b.g" select.txt 
+ 1949  grep "b[a]g" select.txt 
+ 1950  grep "b[aiu]g" select.txt 
+ 1951  grep "b[a-z]g" select.txt 
+ 1952  grep "b*g" select.txt 
+ 1953  grep "b\*g" select.txt 
+ 1954  fgrep "b*g" select.txt 
+ 1955  grep -F "b*g" select.txt 
+ 1956  cat select.txt 
+ 1957  grep "b*g" select.txt 
+ 1958  grep "b\*g" select.txt 
+ 1959  fgrep "b*g" select.txt 
+ 1960  grep -F "b*g" select.txt 
+ 1961  cat repeat.txt 
+ 1962  man grep 
+ 1963  egrep "wo*w" repeat.txt 
+ 1964  egrep "wo?w" repeat.txt 
+ 1965  egrep "wo+w" repeat.txt 
+ 1966  egrep "wo{5}w" repeat.txt 
+ 1967  egrep "wo{3}w" repeat.txt 
+ 1968  egrep "wo{3,}w" repeat.txt 
+ 1969  egrep "wo{,3}w" repeat.txt 
+ 1970  egrep "wo{3,5}w" repeat.txt 
+ 1971  ls
+ 1972  ls -l
+ 1973  clear
+ 1974  eacho "today's date is: "
+ 1975  echo "today's date is: "
+ 1976  date +"%d/ %m/ %Y"
+ 1977  date +"%d/ %m/ %y"
+ 1978  clear
+ 1979  clear && echo "today's date is: " && date+"%d/%m/%Y"
+ 1980  clear && echo "today's date is: " && date +"%d/%m/%Y"
+ 1981  clear && echo "today's date is: " && date +"%d/%m/%Y" && echo "cal of cur month is: " && cal
+ 1982  clear && echo -n "today's date is: " && date +"%d/%m/%Y" && echo "cal of cur month is: " && cal
+ 1983  expr 4 + 5
+ 1984  exit
+ 1985  cd aug20
+ 1986  cd aug2020/
+ 1987  ls
+ 1988  cd eDMC/
+ 1989  ls
+ 1990  man grep
+ 1991  echo $SHELL
+ 1992  ls /bin/*sh
+ 1993  ls -l /bin/*sh
+ 1994  man chsh
+ 1995  exit
+ 1996  cd ShellSCripts/
+ 1997  chmod +x script_04.sh 
+ 1998  ./script_04.sh 
+ 1999  pwd
+ 2000  exit
+ 2001  history
+
